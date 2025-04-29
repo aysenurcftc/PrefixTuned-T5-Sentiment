@@ -1,0 +1,16 @@
+pip
+wandb
+wheel
+setuptools
+numpy
+notebook
+jupyter_contrib_nbextensions
+jupyter_nbextensions_configurator
+transformers
+datasets~=2.12.0
+tqdm
+sacrebleu
+accelerate
+peft
+scikit-learn
+

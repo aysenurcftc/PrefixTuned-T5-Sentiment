@@ -10,12 +10,6 @@ from transformers import get_linear_schedule_with_warmup
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import classification_report
 
-from datasets import config
-# Cache konumunu göster
-print(config.HF_DATASETS_CACHE)
-
-
-
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 print(f"Using device: {device}")
